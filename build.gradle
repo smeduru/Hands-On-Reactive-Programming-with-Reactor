@@ -1,0 +1,9 @@
+allprojects {
+    apply plugin: 'java'
+    group 'com.reactor'
+    version = '1.0'
+    repositories {
+        mavenCentral()
+    }
+}
+
